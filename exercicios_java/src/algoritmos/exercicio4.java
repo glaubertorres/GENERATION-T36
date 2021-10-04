@@ -26,6 +26,8 @@ public class exercicio4 {
 		System.out.println("O valor de S é: "+S);
 		System.out.println("O valor de D é: "+D);
 		
+		System.out.println();
+		
 		
 		
 	}
