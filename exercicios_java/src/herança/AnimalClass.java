@@ -1,6 +1,6 @@
 package herança;
 
-public class AnimalClass {
+public abstract class AnimalClass {
 	
 	//atributos
 	private String especie;
@@ -20,6 +20,7 @@ public class AnimalClass {
 	}
 	
 	//metodos
+	
 	public void print() {
 		System.out.println("\nEspécie: "+especie+"\nRaça: "+raca+"\nNome: "+nome+"\nIdade: "+idade);
 	}
@@ -45,7 +46,8 @@ public class AnimalClass {
 
 	public void setSexo(String sexo) {this.sexo = sexo;}
 
-
+	abstract public void som();
+	abstract public void acao();
 	
 	
 
